@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(29, 81, 150);
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    float:left;
+    margin: 0 10px 0 10px;
+    font-size: 1.7em;
+    color: #eee;
+}
+
+.contact {
+ float: right;
+ margin-right:15px;
+}
+
+.cover {
+    width: 100%;
+    height: 45vh;
+    background: rgba(204, 26, 26, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #eee;
+    width: 25%;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.parent {
+    background: rgb(119, 194, 129);
+}
+.items {
+    margin: 100px;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #555;
+}

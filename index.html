@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b0f8a906f6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/lightgallery.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Phones of Today</title>
 </head>
@@ -30,13 +30,40 @@
             <img src="img/showcase.jpg" alt="">
         </div>
     </section>
+    <!--Overlay-->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Fast & Smart</h3>
+                <h2>People Aren't Using All The Capability</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laudantium, similique suscipit, eligendi aliquid sed odio sit magni laborum, cumque quod tempore aliquam asperiores autem minus quidem rerum officiis inventore?</p>
+            </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="section-c">
+        <div id="lightgallery">
+            <a href="img/showcase3.jpg" class="big">
+            <img src="img/showcase3.jpg" alt=""></a>
+            <a href="img/showcase1.jpg" class="big">
+            <img src="img/showcase1.jpg" alt=""></a>
+            <a href="img/showcase4.jpg" class="big">
+            <img src="img/showcase4.jpg" alt=""></a>
+            <a href="img/showcase7.jpg" class="big">
+            <img src="img/showcase7.jpg" alt=""></a>
+            <a href="img/showcase6.jpg" class="big">
+            <img src="img/showcase6.jpg" alt=""></a>
+            <a href="img/showcase8.jpg" class="big">
+            <img src="img/showcase8.jpg" alt=""></a>
+        </div>
+    </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/simple-lightbox.min.js"></script>
-    <script>
-        $(function() {
-        const $gallery = $('.gallery a').simpleLightbox();
-    });
+    <script src="js/jquery.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery(); 
+        });
     </script>
 </body>
 </html>

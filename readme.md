@@ -1,2 +1,4 @@
-Product Landing page created using Html5,Css3 and [lightGallery] (https://github.com/sachinchoolur/lightGallery)
+# Product Landing Page
+used html5,css3 and light Gallery plugin.
 Images from unsplash
+ [lightGallery](http://sachinchoolur.github.io/lightGallery/).
